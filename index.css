@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.productBody,.homebody{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#fff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container{
+    margin: 0 auto;
+    padding: 0;
+}
+nav{
+    display:flex;
+    background-color: #111;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo,input,ul{
+    flex-basis: 25%;
+}
+.logo{
+    color: #fff;
+    font-weight: bolder;  
+    font-size:20px ; 
+    padding: 10px;
+    margin:5px;
+    flex-shrink: 1;
+}
+[class^=tel]{
+    font-size:30px;
+    font-style: italic;
+    color: chocolate;
+    margin-left: -8px;
+}label:not(.formLabel){
+    color: #fff;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    flex-shrink:1;
+    color:#fff;
+    text-decoration: none;
+    margin:10px;
+    padding: 5px;
+}
+input.search{
+    border: 1px;
+    border-radius: 500px;
+    margin-left: -100px;
+    align-self: center;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    cursor:pointer;
+    box-shadow:5px 5px 10px chocolate ;
+    transition: 250ms flex-basis linear ;
+}
+input.search:hover{
+    flex-basis: 50%;
+}
+
+a:hover{
+    color: chocolate;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+main{
+    flex-shrink: 0;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    background-color:#fff;
+    align-self: center;
+    font-size:1.5rem;
+    margin-top: 20px;
+}
+.img{
+    width: 250px;
+    height: 250px;
+    transition: 250ms all ease-in-out;
+}
+[class^=img]{
+    margin: 5px;
+    padding: 10px;
+}
+
+.productp{
+    color: #111;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+}
+.price{
+    background-color:#111;
+    color: chocolate;
+    font-style: italic;
+}
+button.buy,.viewProduct{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+    background-color:black;
+    border-radius: 400px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 250ms all ease;
+}
+button:hover{
+    background-color:chocolate;
+    
+}
+.img:hover{
+    transform: scale(1.2);
+}
+.content-flex{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.sometext{
+    text-align: justify;
+    padding-right: 40px;
+    flex-shrink: 1;
+    flex-grow:1;
+}
+.wel{
+    font-size:60px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+footer{
+    background-color: black;
+    color:#fff;
+    margin-top: 20px;
+    height: 300px;
+    padding: 20px;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color:#fff;
+}
+.viewProduct{
+    margin-top:50px;
+}
+.wrapper form .text{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    margin:5px auto;
+}
+.wrapper form .text input{
+    width: 400px;
+    border-radius: 10px;
+    height:30px;
+    padding: 10px;
+}
+.wrapper form .text textarea{
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.wrapper
+{
+    margin: 20px auto;
+    max-width: 500px;
+    width:100%;
+    padding:30px;
+    border:1px;
+}
+.wrapper form .text label{
+    width: 200px;
+}
+.contactus{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: chocolate;
+}
+.btn-contact{
+    width:250px;
+    height: 30px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #111;
+    font-size: 20px;
+}
+.cart-container{
+    margin: 50px auto;
+    max-width: 500px;
+    width:100%;
+    padding:30px;
+    border:1px;
+}
+table{
+    border-collapse: collapse;
+}
+table tr td{
+    margin: 20px;
+    padding: 20px;
+}
+table tr td img{
+   width: 300px;
+   height:300px;
+}
+th{
+    background-color: #111;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+
+
+
